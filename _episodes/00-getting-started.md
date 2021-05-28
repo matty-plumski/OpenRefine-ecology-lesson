@@ -17,8 +17,7 @@ keypoints:
 # Lesson
 
 ## Motivations for the OpenRefine Lesson
-- ### Data is often very messy, and this tool saves a lot of time on cleaning
-  headaches.
+- ### Data is often very messy, and this tool saves a lot of time on cleaning headaches.
 
 - ### Data cleaning steps often need repeating with multiple files. 
  OpenRefine is perfect for speeding up repetitive tasks by replaying previous actions on multiple datasets.
