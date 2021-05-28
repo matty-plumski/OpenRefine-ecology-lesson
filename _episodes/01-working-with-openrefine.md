@@ -47,7 +47,11 @@ Note that at step 1, you could upload data in a standard form from a web address
 
 *Exploring data by applying multiple filters*
 
-Facets are one of the most useful features of OpenRefine and can help get an overview of the data in a project as well as helping you bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for
+Facets are essentially aspects or angles of data variance in a given column. For example, Scientific name - 26 choices, or variable, make up the facet. 
+
+Facets are one of the most useful features of OpenRefine"
+- help get an overview of the data in a project 
+- bring more consistency to the data. OpenRefine supports faceted browsing as a mechanism for:
 
 * seeing the big picture of your data, and
 * filtering down to just the subset of rows that you want to change in bulk.
@@ -118,7 +122,15 @@ Facets are intended to group together common values and OpenRefine limits the nu
 
 ## Clustering
 
-In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
+In OpenRefine, clustering means **"finding groups of different values that might be alternative representations of the same thing".** 
+
+We saw this with ammospermophilius harrisi already, where slight mispellings created multiple entries for the same entity. 
+
+Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. 
+
+OpenRefine has several clustering algorithms built in. 
+
+Let's experiment with them to learn more about these algorithms and how they work. 
 
 1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 

@@ -17,25 +17,22 @@ keypoints:
 # Lesson
 
 ## Motivations for the OpenRefine Lesson
-
-
-- It is important to know what you did to your data. Additionally, journals,
-  granting agencies, and other institutions are requiring documentation of the
-  steps you took when working with your data. With OpenRefine, you can capture
-  all actions applied to your raw data and share them with your publication as
-  supplemental material.
-- You *must* export your modified dataset to a new file: OpenRefine does not
-  write back into your original sources. If you don't save it, your OpenRefine
-  work will be lost.
-- Any operation that changes the data in OpenRefine can be easily reversed or
-  undone.
-- Data is often very messy, and this tool saves a lot of time on cleaning
+- ### Data is often very messy, and this tool saves a lot of time on cleaning
   headaches.
-- Data cleaning steps often need repeating with multiple files. OpenRefine is
-  perfect for speeding up repetitive tasks by replaying previous actions on
-  multiple datasets.
+
+- ### Data cleaning steps often need repeating with multiple files. 
+ OpenRefine is perfect for speeding up repetitive tasks by replaying previous actions on multiple datasets.
 - Some concepts such as clustering algorithms are quite complex, but OpenRefine
   makes it easy to introduce them, use them, and show their power.
+- ### It is important to know what you did to your data.
+
+ Additionally, journals, granting agencies, and other institutions are requiring documentation of the steps you took when working with your data. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
+- ### You *must* export your modified dataset to a new file: 
+OpenRefine does not write back into your original sources. If you don't save it, your OpenRefine your work will be lost.
+- Any operation that changes the data in OpenRefine can be easily reversed or
+  undone.
+
+
  
 ## Before we get started
 
